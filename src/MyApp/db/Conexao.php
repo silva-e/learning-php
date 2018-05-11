@@ -9,7 +9,7 @@ class Conexao
 	
 	public static function conn()
 	{
-		return new PDO("mysql:host=localhost;dbname=fisiocare;charset=utf8", "root", "efd12345"); 
+		return new PDO("mysql:host=localhost;dbname=meuprojeto;charset=utf8", "root", "efd12345"); 
 		
 	}
 }
